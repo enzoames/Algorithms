@@ -1,3 +1,0 @@
-# mustdowork
-projects
-read me
