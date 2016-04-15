@@ -563,3 +563,67 @@ int main(void)
 
     exit(0);
 }
+// OTHER MAIN
+
+//int main()
+//{
+// tree_node_t *searchtree;
+// char nextop;
+// searchtree = create_tree();
+// printf("Made Tree: Height-Balanced Tree\n");
+//
+//    while( (nextop = getchar())!= 'q' )
+//    {
+//        if( nextop == 'i' )
+//        {
+//            int inskey,  *insobj, success;
+//            insobj = (int *) malloc(sizeof(int));
+//            scanf(" %d", &inskey);
+//            *insobj = 10*inskey+2; // example: 10 * 20 + 2 = 202
+//            success = insert( searchtree, inskey, insobj );
+//
+//            if ( success == 0 )
+//            printf("  insert successful, key = %d, object value = %d, height is %d\n", inskey, *insobj, searchtree->height );
+//
+//            else
+//                printf("  insert failed, success = %d\n", success);
+//        }
+//
+//        if( nextop == 'f' )
+//        {
+//            int findkey, *findobj;
+//            scanf(" %d", &findkey);
+//            findobj = find( searchtree, findkey);
+//
+//            if( findobj == NULL )
+//                printf("  find failed, for key %d\n", findkey);
+//            else
+//                printf("  find successful, found object %d\n", *findobj);
+//        }
+//
+//        if( nextop == 'd' )
+//        {
+//            int delkey, *delobj;
+//            scanf(" %d", &delkey);
+//            delobj = deletee( searchtree, delkey);
+//
+//            if( delobj == NULL )
+//                printf("  delete failed for key %d\n", delkey);
+//            else
+//                printf("  delete successful, deleted object %d, height is now %d\n", *delobj, searchtree->height);
+//        }
+//
+//        if( nextop == '?' )
+//        {
+//            printf("  Checking tree\n");
+//            check_tree(searchtree,0,-1000,1000);
+//            printf("\n");
+//
+//            if( searchtree->left != NULL )
+//                printf("key in root is %d, height of tree is %d\n", searchtree->key, searchtree->height );
+//
+//            printf("  Finished Checking tree\n");
+//        }   
+//    }
+//    return(0);
+//}
