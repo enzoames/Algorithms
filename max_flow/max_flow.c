@@ -197,37 +197,3 @@ int main(void)
 
     printf("End Test\n");
 }
-
-
-//int main()
-//{
-//    int vertices = 6; int source = 0; int target = 5; //target = n - 1
-//
-//    int capacityMatrx [6][6];
-//    int flowMatrx [6][6];
-//    int i, j;
-//    printf("Enter Capacity for matrix: \n");
-//
-//    for (i = 0 ; i < vertices ; i++ ) //rows
-//    {
-//        for (j = 0 ; j < vertices ; j++) //columns
-//        {
-//            scanf("%d", &capacityMatrx[i][j]);
-//        }
-//    }
-//
-//    maximum_flow(vertices, source, target, &(capacityMatrx[0][0]), &(flowMatrx[0][0]) );
-//
-//
-//    for (i = 0 ; i < vertices ; i++ ) //rows
-//    {
-//        for (j = 0 ; j < vertices ; j++) //columns
-//        {
-//            printf ( " %d ", flowMatrx[i][j] );
-//        }
-//        printf ("\n");
-//    }
-//
-//
-//    return 0;
-//}
